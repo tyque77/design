@@ -1,0 +1,201 @@
+{
+  "SCS": {
+    "fontFamily": {
+      "pretendard": {
+        "value": "Pretendard",
+        "type": "fontFamily"
+      }
+    },
+    "fontSize": {
+      "h1": {
+        "value": "36px",
+        "type": "fontSizes"
+      },
+      "h2": {
+        "value": "32px",
+        "type": "fontSizes"
+      },
+      "h3": {
+        "value": "26px",
+        "type": "fontSizes"
+      },
+      "h4": {
+        "value": "24px",
+        "type": "fontSizes"
+      },
+      "large": {
+        "value": "18px",
+        "type": "fontSizes"
+      },
+      "base": {
+        "value": "16px",
+        "type": "fontSizes"
+      },
+      "small": {
+        "value": "14px",
+        "type": "fontSizes"
+      }
+    },
+    "fontWeight": {
+      "regular": {
+        "value": "400",
+        "type": "fontWeight"
+      },
+      "medium": {
+        "value": "500",
+        "type": "fontWeight"
+      },
+      "semibold": {
+        "value": "{fontWeight.bold}",
+        "type": "fontWeight"
+      },
+      "bold": {
+        "value": "700",
+        "type": "fontWeight"
+      }
+    },
+    "lineHeight": {
+      "normal": {
+        "value": "150%",
+        "type": "lineHeight"
+      }
+    },
+    "letterSpacing": {
+      "normal": {
+        "value": "-2px",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "none": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    },
+    "colors": {
+      "primary": {
+        "value": "#00C7AA",
+        "type": "color",
+        "description": "브랜드 주 색상"
+      },
+      "gray": {
+        "50": {
+          "value": "#F8F9F9",
+          "type": "color"
+        },
+        "100": {
+          "value": "#E8EAEA",
+          "type": "color"
+        },
+        "200": {
+          "value": "#D1D4D4",
+          "type": "color"
+        },
+        "300": {
+          "value": "#B9BEBE",
+          "type": "color"
+        },
+        "400": {
+          "value": "#8E9494",
+          "type": "color"
+        },
+        "500": {
+          "value": "#636A6A",
+          "type": "color"
+        },
+        "600": {
+          "value": "#4D5453",
+          "type": "color"
+        },
+        "700": {
+          "value": "#3A3F3E",
+          "type": "color"
+        },
+        "800": {
+          "value": "#272E2D",
+          "type": "color"
+        },
+        "900": {
+          "value": "#1A2220",
+          "type": "color"
+        }
+      },
+      "green": {
+        "50": {
+          "value": "#D9F7F2",
+          "type": "color"
+        },
+        "100": {
+          "value": "#B3F0E6",
+          "type": "color"
+        },
+        "200": {
+          "value": "#8CE8D9",
+          "type": "color"
+        },
+        "300": {
+          "value": "#66E1CC",
+          "type": "color"
+        },
+        "400": {
+          "value": "#40D9BF",
+          "type": "color"
+        },
+        "500": {
+          "value": "#00C7AA",
+          "type": "color"
+        }
+      }
+    },
+    "typography": {
+      "title": {
+        "h1-bold": {
+          "value": {
+            "fontSize": "{fontSize.h1}",
+            "fontWeight": "700"
+          },
+          "type": "typography"
+        },
+        "h1-semibold": {
+          "value": {
+            "fontWeight": "500"
+          },
+          "type": "typography"
+        }
+      },
+      "element": {
+        "large-regular": {
+          "value": {
+            "fontFamily": "{SCS.fontFamily.pretendard.value}",
+            "fontWeight": "{SCS.fontWeight.regular.value}",
+            "lineHeight": "{SCS.lineHeight.normal.value}",
+            "fontSize": "{SCS.fontSize.large.value}",
+            "letterSpacing": "{SCS.letterSpacing.normal.value}",
+            "paragraphSpacing": "{SCS.paragraphSpacing.none.value}",
+            "textCase": "{SCS.textCase.none.value}",
+            "textDecoration": "{SCS.textDecoration.none.value}"
+          },
+          "type": "typography"
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "SCS"
+    ]
+  }
+}
